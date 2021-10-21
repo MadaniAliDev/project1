@@ -1,0 +1,439 @@
+@font-face {
+  font-family: IRANSansWeb;
+  src: url(./fonts/IRANSansWeb_Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: IRANSansWeb;
+  src: url(./fonts/IRANSansWeb.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: IRANSansWeb;
+  src: url(./fonts/IRANSansWeb_Light.ttf);
+  font-weight: 200;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  direction: rtl;
+  font-family: IRANSansWeb;
+}
+
+#center {
+  margin-top: 500px;
+}
+
+#banner {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#menu2 {
+  list-style-type: none;
+}
+
+#center {
+  height: 600px;
+  background-color: rgba(0, 100, 150, 0.5);
+}
+
+a {
+  padding: 5px 10px;
+  width: 120px;
+}
+
+#menuCon {
+  margin-top: -10px;
+  height: 7%;
+  background-color: rgba(1, 38, 56, 0.5);
+}
+
+#menuCon:hover {
+  background-color: rgba(4, 31, 44, 0.726);
+}
+
+#upMenuFeh {
+  font-weight: 300;
+  float: right;
+  list-style: none;
+  margin-top: -5px;
+  color: white;
+  padding-right: 30px;
+}
+
+#centerText {
+  text-align: center;
+  font-size: 110px;
+  font-weight: 300;
+  color: white;
+  margin-top: 16%;
+}
+
+#Body {
+  margin-top: 260px;
+  width: 100%;
+  height: 1130px;
+  background-color: rgba(47, 126, 165, 0.5);
+}
+
+#upBanner {
+  margin-top: -95px;
+  width: 100%;
+  height: 56px;
+  background-color: rgba(187, 197, 202, 0.637);
+}
+
+.arrow {
+  border: solid black;
+  border-radius: 5px;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 13px;
+  margin-right: 50%;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#bodyMenu {
+  width: 15%;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: -10px;
+}
+
+li {
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(99, 216, 177);
+  padding: 10px;
+  padding-right: 30px;
+  margin-bottom: -15px;
+  width: 100%;
+  margin-right: -30px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background-color: rgb(29, 29, 31);
+  color: white;
+}
+
+#typhoCon {
+  margin-top: 0px;
+  width: 60%;
+  height: 1090px;
+  background-color: rgb(55, 55, 121);
+  float: right;
+  margin-right: 100px;
+}
+
+#typhoOne {
+  width: 80%;
+  height: 170px;
+  background-color: rgb(224, 224, 224);
+  margin-right: 10%;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+#typhoTwo,
+#typhoThree,
+#typhoFour,
+#typhoFive {
+  margin-bottom: 40px;
+  width: 80%;
+  height: 170px;
+  background-color: rgb(224, 224, 224);
+  margin-right: 10%;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+#aboutCon {
+  align-items: center;
+  margin-top: 20px;
+  float: left;
+  width: 13%;
+  height: 350px;
+  background-color: rgb(99, 216, 177);
+  box-shadow: 5px 5px 3px rgb(95, 88, 88);
+  border-radius: 0px 15px 15px 0px;
+}
+
+#aboutCon:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background-color: rgb(29, 29, 31);
+  box-shadow: 5px 5px 3px rgb(211, 204, 204);
+  color: white;
+}
+
+#Rahnamaei {
+  color: rgb(55, 55, 121);
+  text-decoration: solid;
+  margin-right: 30%;
+  font-size: 20px;
+}
+
+#Rahnamaei:hover {
+  color: #ddd;
+}
+
+#inner {
+  padding-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#title {
+  padding-top: 70px;
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  font-size: 27px;
+  font-weight: 500;
+  float: right;
+}
+
+#subjects {
+  float: right;
+  margin-top: 65px;
+  margin-right: 50px;
+  padding: 6px;
+  border-right: 1px solid rgb(99, 216, 177);
+  font-weight: 300;
+}
+
+#subjects2 {
+  float: right;
+  margin-top: 65px;
+  margin-right: 50px;
+  padding: 6px;
+  border-right: 1px solid rgb(99, 216, 177);
+  font-weight: 300;
+}
+
+#footer {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(70, 90, 83);
+  margin-top: -62px;
+}
+
+#footer:hover {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#modal-contact > div {
+  background-color: white;
+  padding: 30px;
+  transition: all 0.5s;
+  border: black solid 3px;
+  z-index: 1000;
+}
+
+.modal {
+  position: fixed;
+  top: 200px;
+  opacity: 1;
+  width: 50%;
+  text-align: center;
+  margin-right: 25%;
+  z-index: -2;
+}
+
+#modal-contact > div:target {
+  z-index: 1000;
+  opacity: 1;
+}
+
+.modal-wrapper {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200%;
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.modal-wrapper:target {
+  width: 100%;
+  height: 200%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  z-index: 999999999;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+}
+
+span:target {
+  background-color: white;
+  color: black;
+  border-radius: 100%;
+  z-index: 9999999999999999999;
+}
+
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  margin-top: 50px;
+  display: block;
+}
+
+#TahsilatButton {
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.tn {
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.arrow2 {
+  padding: 50px;
+  border: solid black;
+  border-radius: 5px;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 13px;
+  margin-right: 50%;
+  margin-left: 20px;
+}
+
+.arrow-box {
+  margin-right: 120px;
+  margin-left: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: blanchedalmond;
+  margin-top: -150px;
+  margin-left: -10px;
+}
+
+.arrow2 {
+  margin-top: 18px;
+  border: solid rgb(0, 0, 0);
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 6px;
+
+  margin-left: 100px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#upper {
+  position: fixed;
+  z-index: 100;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
